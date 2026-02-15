@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf0f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5a4060;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    border: 1px solid #f0d6eb;
+    border-radius: 20px;
+    padding: 36px;
+    width: 100%;
+    max-width: 460px;
+}
+
+.seccion-titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color:  #b09abc;
+    margin-bottom:  14px;
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.paso {
+    display: flex;
+    gap: 12px;
+    font-size: 0.9rem;
+    color: #7a6080;
+    line-height: 1.6;
+}
+
+.paso span {
+    color: #c080e0;
+    font-weight: 700;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #f0d6eb;
+    margin: 24px 0;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#f0a0d0 0%,#c090e8 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity:0.9;
+}
+
+button:disabled {
+    background: #d6f4ed;
+    color: #3a9a7a;
+    cursor: default;
+}
+
+.footer {
+    margin-top: 24px;
+    font-size: 0.8rem;
+    color: #b09abc;
+    text-align: center;
+}
